@@ -21,7 +21,7 @@ function preload() {
     micaela = loadImage("micaela.png");
     molly = loadImage("molly.png");
     venice = loadImage("venice.png");
-    maia = "hi";
+    maia = loadImage("maia.png");
     people = [maia, arden, maximus, molly, anna, venice, devon, brooke, micaela, dash];
 }
 
@@ -58,8 +58,8 @@ class Player {
         }
 
         fill("blue");
-        circle(this.x, this.y, 30);
-        for(let i = 1; i<10; i++){
+        circle(this.x, this.y, 35);
+        for(let i = 0; i<10; i++){
             if(character == i){
                 image(people[character], this.x - 35, this.y - 50, 75, 100);
             }
