@@ -147,6 +147,7 @@ function check(){
         fill('white');
         text("GAME OVER", 750, 500);
         text("press space to restart", 550, 650);
+        text("score: " + count, 550, 750);
     }
 }
 
